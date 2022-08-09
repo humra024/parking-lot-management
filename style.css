@@ -1,0 +1,70 @@
+h1
+{
+    background-color: rgba(235, 224, 230, 0.7);
+    backdrop-filter:blur(10px);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(0,0,0,0.7);
+    text-shadow: 3px 3px rgba(26, 24, 24, 0.336);
+    font-weight: 600;
+}
+
+body{
+    background:url("lot.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.inputs{
+    border:none;
+    outline: none;
+    border-radius: 5px;
+    height: 15px;
+    padding: 7px;
+}
+.inputs:focus{
+    outline: 1px solid rgba(165, 42, 75, 0.737);
+}
+#box
+{
+    width: 400px;
+    background-color: rgba(235, 224, 230, 0.7);
+    backdrop-filter:blur(10px);
+    padding: 10ppx;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(0,0,0,0.7);
+}
+
+#display
+{
+    width: 700px;
+    border:none;   
+    outline: none;
+    border-color: black;
+    background-color: rgba(235, 224, 230, 0.7);
+    backdrop-filter:blur(10px);
+    padding: 10px;
+    box-shadow: 3px 3px 3px 2px rgb(0,0,0,0.7);
+    
+}
+table,tr,th,td
+{
+   margin:auto;
+   padding: 5px;
+   text-align: center;
+   border: 1px solid black;
+   border-collapse: collapse;
+
+}
+#save{
+    width: 100px;
+    height: 25px;
+    border-radius: 7px;
+    border: none;
+    color: aliceblue;
+    background-color: rgba(165, 42, 75, 0.737);
+    backdrop-filter:blur(10px);
+}
